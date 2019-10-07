@@ -1,0 +1,14 @@
+@import "../shared/variables.scss";
+@import "../shared/mixins.scss";
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &-profile {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}

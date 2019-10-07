@@ -1,0 +1,14 @@
+@import '../shared/typography.scss';
+@import '../shared/variables.scss';
+@import '../shared/mixins.scss';
+
+.header {
+  border-bottom: 1px solid color(border-color);
+
+  &__container {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

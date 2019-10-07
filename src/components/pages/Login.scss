@@ -1,0 +1,83 @@
+@import "../shared/variables.scss";
+@import "../shared/mixins.scss";
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  @include from($medium) {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  &__tilt {
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid color(primary);
+
+    @include from($medium) {
+      border-bottom: none;
+      border-right: 10px solid color(primary);
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    height: 50vh;
+
+    @include from($medium) {
+      height: 100vh;
+    }
+  }
+
+  &__button {
+    margin: auto;
+    display: block;
+
+    @include from($medium) {
+      max-height: 50vh;
+      justify-self: center;
+      align-self: center;
+    }
+  }
+
+  &-form {
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+
+    h3 {
+      font-size: 28px;
+    }
+
+    input {
+      padding: 8px;
+      margin-bottom: 16px;
+      border-radius: 5px;
+      border: 1px solid color(border-color);
+      width: 250px;
+    }
+  }
+
+  &-comments {
+    margin-top: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+      font-size: 28px;
+    }
+  }
+}

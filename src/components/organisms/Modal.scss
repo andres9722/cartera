@@ -1,0 +1,51 @@
+@import "../shared/variables.scss";
+@import "../shared/mixins.scss";
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(color(black), 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-container {
+    padding: 16px 32px;
+    border-radius: 5px;
+    background: color(white);
+    position: relative;
+
+    h2 {
+      padding-bottom: 16px;
+      border-bottom: 1px solid color(border-color);
+    }
+
+    .name {
+      margin-bottom: 16px;
+    }
+
+    .option {
+      padding: 8px 16px;
+      border: 1px solid color(border-color);
+      border-radius: 5px;
+      margin-bottom: 16px;
+    }
+
+    .modal-close {
+      position: absolute;
+      right: -10px;
+      top: -10px;
+      background: color(primary);
+      color: white;
+      border-radius: 50%;
+      padding: 8px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+}

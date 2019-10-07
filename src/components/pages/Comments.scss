@@ -1,0 +1,18 @@
+@import "../shared/variables.scss";
+@import "../shared/mixins.scss";
+
+.stars {
+  margin-bottom: 32px;
+}
+
+.comments {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+
+  &-item {
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid color(border-color);
+  }
+}

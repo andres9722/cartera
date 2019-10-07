@@ -1,0 +1,27 @@
+@import "../shared/variables.scss";
+@import "../shared/mixins.scss";
+
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 1px solid color(border-color);
+    width: 250px;
+  }
+}
+
+.cobro {
+  margin-top: 32px;
+  border-top: 1px solid color(border-color);
+  max-width: $max-width;
+  margin: 0 auto;
+}

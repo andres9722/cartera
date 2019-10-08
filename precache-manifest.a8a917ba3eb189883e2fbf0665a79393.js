@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/cartera/static/js/runtime~main.63c2062c.js"
   },
   {
-    "revision": "39f98a6e06842dc2636e",
-    "url": "/cartera/static/js/main.39f98a6e.chunk.js"
+    "revision": "c437e68f306b89e99691",
+    "url": "/cartera/static/js/main.c437e68f.chunk.js"
   },
   {
     "revision": "09ac022dff1ed90bde78",
     "url": "/cartera/static/js/1.09ac022d.chunk.js"
   },
   {
-    "revision": "39f98a6e06842dc2636e",
+    "revision": "c437e68f306b89e99691",
     "url": "/cartera/static/css/main.c263e512.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/cartera/static/css/1.5417b344.chunk.css"
   },
   {
-    "revision": "8812f4cb409d52d5773c6a8722901029",
+    "revision": "a29d9191f7cf2dee5ff64703f02977e8",
     "url": "/cartera/index.html"
   }
 ];

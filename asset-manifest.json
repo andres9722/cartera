@@ -1,16 +1,16 @@
 {
   "main.css": "/cartera/static/css/main.c263e512.chunk.css",
-  "main.js": "/cartera/static/js/main.39f98a6e.chunk.js",
-  "main.js.map": "/cartera/static/js/main.39f98a6e.chunk.js.map",
+  "main.js": "/cartera/static/js/main.c437e68f.chunk.js",
+  "main.js.map": "/cartera/static/js/main.c437e68f.chunk.js.map",
   "static/css/1.5417b344.chunk.css": "/cartera/static/css/1.5417b344.chunk.css",
   "static/js/1.09ac022d.chunk.js": "/cartera/static/js/1.09ac022d.chunk.js",
   "static/js/1.09ac022d.chunk.js.map": "/cartera/static/js/1.09ac022d.chunk.js.map",
   "runtime~main.js": "/cartera/static/js/runtime~main.63c2062c.js",
   "runtime~main.js.map": "/cartera/static/js/runtime~main.63c2062c.js.map",
-  "static/css/1.5417b344.chunk.css.map": "/cartera/static/css/1.5417b344.chunk.css.map",
-  "static/media/loginbg.jpg": "/cartera/static/media/loginbg.86636209.jpg",
   "static/css/main.c263e512.chunk.css.map": "/cartera/static/css/main.c263e512.chunk.css.map",
+  "static/media/loginbg.jpg": "/cartera/static/media/loginbg.86636209.jpg",
+  "static/css/1.5417b344.chunk.css.map": "/cartera/static/css/1.5417b344.chunk.css.map",
   "index.html": "/cartera/index.html",
-  "precache-manifest.686752fbc24650f707e03ac671e378e5.js": "/cartera/precache-manifest.686752fbc24650f707e03ac671e378e5.js",
+  "precache-manifest.a8a917ba3eb189883e2fbf0665a79393.js": "/cartera/precache-manifest.a8a917ba3eb189883e2fbf0665a79393.js",
   "service-worker.js": "/cartera/service-worker.js"
 }
